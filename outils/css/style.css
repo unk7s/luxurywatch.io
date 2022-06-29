@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+/*font-family: 'Montserrat', sans-serif;*/
+body,html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.separator{
+    height: 3px;
+    border: 3px;
+    box-shadow: 3px;
+    background-color: #3498db;
+    align-items: center;
+}
+/*header*/
+.header {
+    background-color: #3498db;
+    height: 70px;
+    line-height: 70px;
+}
+
+.logo {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+
+.menu a{
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.menu a:hover{
+    color: #2c3e50;
+}
+
+/*banner*/
+.banner{
+    width: 100%;
+    max-width: 100%;
+}
+
+.ban{
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.ban img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.inner-banner{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.inner-banner h1{
+    color: #ffffff;
+    text-shadow: 1px 1px 20px #000000;
+}
+
+.inner-banner .btn-custom{
+    background-color: #3498db;
+    color: #ffffff;
+}
+
+.inner-banner .btn-custom:hover{
+    background-color: #2c3e50;
+}
+/*about*/
+.about article h2{
+    text-align: center;
+}
+#about{
+    text-align: center;
+    padding-top: 10%;
+}
+.about article{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+/*portfolio*/
+.portfolio{
+    background-color: #eeeeee;
+    height: 500px;
+}
+#portfolio{
+    text-align: center;
+}
+
+.portfolio .item-folio{
+    height: 40px;
+    background-color: #3498db;
+}
+
+/*contact*/
+.footer{
+    background-color: #2c3e50;
+}
+
+#Contact {
+    color: #ffffff;
+    text-align: center;
+}

@@ -1,0 +1,191 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+.body{
+    background-color: #3498db;
+}
+header{
+    height: 100px;
+    width: 100%;
+    line-height:90px;
+    background-color: #3498db;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+.menu{
+    float: right;
+    text-align: center;
+   font-size: larger;
+}
+.menu a{
+    color: #fff;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.menu a:hover{
+    color: #02316B;
+    text-decoration: underline;
+}
+.ban img{
+    height: 550px;
+    width: 100vw;
+}
+.inner-banner{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+.inner-banner h1{
+    color: #fff;
+    text-shadow: 1px 1px 20px #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+   cursor: pointer;
+}
+.inner-banner h2{
+    color: #fff;
+    text-shadow: 1px 1px 20px #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+   cursor: pointer;
+}
+.inner-banner h2 a{
+    text-decoration: none; 
+    color: #3498db;
+}
+.inner-banner h2 a:hover{
+    color: #02316B;
+    text-decoration: underline;
+}
+.inner-banner h3{
+    color: #3498db;
+    text-shadow: 1px 1px 20px #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+   cursor: pointer;
+   padding-top: 75px;
+}
+.inner-banner .btn-custom{
+    background-color: #3498db;
+    color: #ffffff;
+}
+
+.inner-banner .btn-custom:hover{
+    background-color: #02316B;
+    color: #fff;
+}
+footer{
+    background-color: #02316B;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    overflow: hidden;
+}
+.fa{
+    font-size: 25px;
+    text-align: center;
+}
+.mail{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+.fa-solid{
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+}
+.tel{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+.about{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #3498db;
+    font-weight: bolder;
+}
+article h2{
+    color: #3498db;
+}
+p{
+    font-weight: bold;
+}
+.card{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 1;
+}
+.card-img-top{
+    height: 250px;
+    width: 350px;
+}
+.card-body{
+    height: 250px;
+    text-align: center;
+    background-color: #565360;
+    color: #3498db;
+}
+article{
+    background-color: #000000;
+    margin-bottom: 25px;
+    margin-left: 55px;
+    margin-right: 45px;
+    justify-content: center;
+    border-radius: 15px;
+    color: #3498db;
+    
+}
+form{
+    margin-bottom: 65px;
+    padding-bottom: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-image: url('images/cover-contact.png');
+    border-radius: 20px;
+}
+.container h1{
+    font-family: 'Montserrat', sans-serif;
+}
+.apropos h2{
+    text-align: center;
+    color: #02316B;
+    font-size: 35px;
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+marquee{
+    margin-top: 15px;
+}
+.col-md-12 button{
+    background-color: #fff;
+    color: #3498db;
+    font-weight: bold;
+}
+.col-md-12 button:hover{
+    background-color: #02316B;
+    color: #ffffff;
+}
+.container h1{
+    color: #3498db;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
